@@ -1,9 +1,10 @@
 import{FiHeart}from'react-icons/fi'
 import{AiOutlineUser ,AiOutlineUserAdd}from'react-icons/ai'
-import"./Nav.css";
+import "../App.css"
 function Nav() {
   return (
-    <nav>
+   <div className='containerAllnav'>
+
       <div className="nav-container">
         <input
          type="text" 
@@ -25,7 +26,7 @@ function Nav() {
       </a>
 
       </div>
-    </nav>
+    </div>
   )
 }
 export default Nav;
