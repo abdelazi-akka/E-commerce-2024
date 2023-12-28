@@ -1,0 +1,9 @@
+. color-title{
+    margin-top: 2rem;
+}
+.containercolor{
+    background: #ff0000;
+}
+.all{
+    background: linear-gradient(blue,crimson);
+}
