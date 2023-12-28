@@ -1,31 +1,31 @@
 import React from 'react'
-import './Category.css'
+import '../App.css'
  function Category() {
   return (
    <>
-     <div>
+     <div className='allcategori'>
       <h2 className='sidebar-title'>Category</h2>
-    </div>
+    
     <label className='sidebar-label-container'>
       <input type='radio' name='test'/>
-      <span className='checkmark'></span>All
+      <span className='checkmark'>All</span>
     </label>
     <label className='sidebar-label-container'>
       <input type='radio' name='test'/>
-      <span className='checkmark'></span>Sneakers
+      <span className='checkmark'>Sneakers</span>
     </label>
     <label className='sidebar-label-container'>
       <input type='radio' name='test'/>
-      <span className='checkmark'></span>Flats
+      <span className='checkmark'>Flats</span>
     </label>
     <label className='sidebar-label-container'>
       <input type='radio' name='test'/>
-      <span className='checkmark'></span>Sandals
+      <span className='checkmark'>Sandals</span>
     </label>
     <label className='sidebar-label-container'>
       <input type='radio' name='test'/>
-      <span className='checkmark'></span>Heels
-    </label>
+      <span className='checkmark'>Heels</span>
+    </label></div>
    </>
   );
 }

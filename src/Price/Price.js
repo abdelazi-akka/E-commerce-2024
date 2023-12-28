@@ -1,28 +1,28 @@
 
-import "./Price.css"
+import "../App.css"
  function Price() {
   return (
-    <div className="ml">
-    <h2 className="sidebar-title price-title">Price</h2>
+    <div className="allcategori">
+    <h2 className="sidebar-title">Price</h2>
     <label className='sidebar-label-container'>
       <input type='radio' name='test2'/>
-      <span className='checkmark'></span>All
+      <span className='checkmark'>All</span>
     </label>
     <label className='sidebar-label-container'>
       <input type='radio' name='test2'/>
-      <span className='checkmark'></span>$0-$50
+      <span className='checkmark'>$0-$50</span>
     </label>
     <label className='sidebar-label-container'>
       <input type='radio' name='test2'/>
-      <span className='checkmark'></span>$50-$100
+      <span className='checkmark'>$50-$100</span>
     </label>
     <label className='sidebar-label-container'>
       <input type='radio' name='test2'/>
-      <span className='checkmark'></span>$$100-$150
+      <span className='checkmark'>$100-$150</span>
     </label>
     <label className='sidebar-label-container'>
       <input type='radio' name='test2'/>
-      <span className='checkmark'></span>over-$150
+      <span className='checkmark'>over-$150</span>
     </label>
     </div>
   )

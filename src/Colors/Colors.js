@@ -1,9 +1,9 @@
 import React from 'react'
- import "./Colors.css"
+import "../App.css"
  function Colors() {
   return (
-    <div className='containercolor'>
-     <h1 className="sidebar-title price-title">Colors</h1>
+    <div className='allcategori'>
+     <h2 className="sidebar-title">Colors</h2>
      <label className='sidebar-label-container'>
       <input type='radio' name='test2'/>
       <span className='checkmark'></span>All

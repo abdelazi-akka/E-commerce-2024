@@ -1,9 +1,9 @@
 import React from 'react'
-import "./Recommended.css"
+import "../App.css"
 
 function Recommended() {
   return (
-    <>
+  
     <div className='content-reconn'>
     <h2 className='recommendation-title'>Recommended</h2>
     <div className="recommendation-flex">
@@ -16,7 +16,7 @@ function Recommended() {
     </div>
     </div>
       
-    </>
+   
     
   )
 }

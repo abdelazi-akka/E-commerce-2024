@@ -1,7 +1,7 @@
 
 import { AiFillStar } from "react-icons/ai";
 import {BsBagHeartFill} from "react-icons/bs";
-import "./Product.css"
+import "../App.css"
 
  function Product() {
   return (
